@@ -120,6 +120,7 @@ struct ContentView: View {
             return 4
         }
         
+        
         //If AI can't take middle square, then take random sqaure
         var computerPosition = Int.random(in: 0..<9)
         while (isPositionOcuupied(in: moves, for: computerPosition)) {
