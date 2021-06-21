@@ -12,6 +12,7 @@
 		8ADF055C267CAB2500213114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF055B267CAB2500213114 /* Assets.xcassets */; };
 		8ADF055F267CAB2500213114 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF055E267CAB2500213114 /* Preview Assets.xcassets */; };
 		8ADF0567267D265900213114 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF0566267D265900213114 /* Alert.swift */; };
+		8ADF05692680B5F000213114 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF05682680B5F000213114 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8ADF055E267CAB2500213114 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8ADF0560267CAB2500213114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ADF0566267D265900213114 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		8ADF05682680B5F000213114 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8ADF0557267CAB1B00213114 /* TicTacToeApp.swift */,
 				8ADF0559267CAB1B00213114 /* ContentView.swift */,
+				8ADF05682680B5F000213114 /* ViewModel.swift */,
 				8ADF0566267D265900213114 /* Alert.swift */,
 				8ADF055B267CAB2500213114 /* Assets.xcassets */,
 				8ADF0560267CAB2500213114 /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				8ADF0567267D265900213114 /* Alert.swift in Sources */,
 				8ADF055A267CAB1B00213114 /* ContentView.swift in Sources */,
+				8ADF05692680B5F000213114 /* ViewModel.swift in Sources */,
 				8ADF0558267CAB1B00213114 /* TicTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
