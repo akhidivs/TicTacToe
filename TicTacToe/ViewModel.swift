@@ -21,7 +21,6 @@ final class ViewModel: ObservableObject {
     
     func processPlayerMove(for position: Int) {
         
-        print("Hurray.....")
         //Processing Human Move
         if isPositionOcuupied(in: moves, for: position) { return }
         moves[position] = Move(player: .human, boardIndex: position)

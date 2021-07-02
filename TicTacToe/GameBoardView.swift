@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  GameBoardView.swift
 //  TicTacToe
 //
 //  Created by Akhilesh Mishra on 18/06/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GameBoardView: View {
     
     @StateObject private var viewModel = ViewModel()
     
@@ -21,7 +21,9 @@ struct ContentView: View {
                         ZStack {
                             GameboardCircleView(geometry: geometry)
                             
-                            MoveIndicatorView(systemImageName: viewModel.moves[i]?.indicator ?? "")
+                            if let indicator = viewModel.moves[i]?.indicator {
+                                MoveIndicatorView(systemImageName: indicator)
+                            }
                         }
                         .onTapGesture {
                             viewModel.processPlayerMove(for: i)
@@ -42,7 +44,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GameBoardView()
     }
 }
 
